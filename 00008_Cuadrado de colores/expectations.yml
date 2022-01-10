@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:DibujarCuadradoColorido
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: DibujarCuadradoColorido
+  inspection: Uses:DibujarLineaColorida
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Not:Declares:DibujarCuadroColorido

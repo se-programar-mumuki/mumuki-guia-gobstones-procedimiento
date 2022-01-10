@@ -1,0 +1,4 @@
+procedure PonerNegroYRojo() {
+	Poner(Negro)
+	Poner(Rojo)
+}

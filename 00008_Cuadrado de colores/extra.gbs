@@ -1,0 +1,17 @@
+procedure DibujarLineaColorida() {
+  PonerCeldaColorida()
+  Mover(Este)
+  PonerCeldaColorida()
+  Mover(Este)
+  PonerCeldaColorida()
+  Mover(Este)
+  PonerCeldaColorida()
+  IrAlBorde(Oeste)
+}
+
+procedure PonerCeldaColorida() {
+  Poner(Verde)
+  Poner(Rojo)
+  Poner(Negro)
+  Poner(Azul)
+}

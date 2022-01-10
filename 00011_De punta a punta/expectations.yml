@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:DibujarDosPuntas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: DibujarDosPuntas
+  inspection: Uses:DibujarPuntaNegra
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Not:Declares:DibujarPuntaNegra
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:DibujarDosPuntas
